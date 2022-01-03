@@ -1,0 +1,146 @@
+.management {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .managementTitleContanier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+  .managementContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .managementShow {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .managementUpdate {
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+  .managementShowTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .showmanagementImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .managementShowTopTittle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .managementShowUserName {
+    font-weight: 600;
+  }
+  
+  .managementShowUserTitle {
+    font-weight: 300;
+  }
+  
+  .managementShowBottom {
+    margin-top: 20px;
+  }
+  
+  .managementShowTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+  }
+  
+  .managementShowInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+  }
+  
+  .managementShowIcon {
+    font-size: 16px !important;
+  }
+  
+  .managementShowInfoTitle {
+    margin-left: 10px;
+  }
+  
+  .managementUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .managementUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .managementUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .managementUpdateItem > label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .managementUpdateInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .managementUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .managementUpdateUpload{
+      display: flex;
+      align-items: center;
+  }
+  
+  .managementUpdateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .managementUpdateIcon {
+      cursor: pointer;
+  }
+  
+  .managementUpdateButton {
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      background-color: darkblue;
+      color: white;
+      font-weight: 600;
+  }

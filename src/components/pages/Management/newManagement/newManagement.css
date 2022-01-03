@@ -1,0 +1,103 @@
+.newManagement {
+  flex: 4;
+  padding: 20px;
+}
+
+.generalManagementFullname {
+  flex: 2;
+}
+
+.newManagementForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.newManagementItem {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newManagementItemImg {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.newManagementItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 1000;
+  color: black;
+}
+
+.newManagementItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.newManagementSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.newManagementButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.generalManagementFullname {
+  margin-left: 15px;
+}
+
+.input {
+  display: flex;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.generalManagementUploadImg
+
+.label {
+  font-size: 20px;
+}
+.box{
+  border:solid 1px red ;
+  width: 150px;
+  height: 150px;
+}
+
+.containerone{
+  display: flex;
+  flex-direction: row;
+}
+.row{
+  flex-direction: row;
+  display: flex;
+  margin-top: 10px;
+
+}
+.generalManagement01{
+  margin-left: 15px;
+}
+.generalManagement{
+  margin-left: 15px;
+}
