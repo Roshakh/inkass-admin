@@ -36,10 +36,12 @@ export default function Sidebar() {
               Что о нас говорят?
             </li>
             </Link>
-            <li className="sidebarListItem">
+            <Link to="/Vakansi"  className="link">
+              <li className="sidebarListItem">
               <MonetizationOn className="sidebarIcon" />
-              Квитанции 
-            </li>
+                Вакансии 
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -63,10 +65,48 @@ export default function Sidebar() {
               Руководство
             </li>
             </Link>
+            <Link to="Asnoviy" className="link">
             <li className="sidebarListItem">
               <Analytics className="sidebarIcon" />
-              Отчеты
+              Асновый
             </li>
+            </Link>
+            <Link to="Table" className="link">
+            <li className="sidebarListItem">
+              <Analytics className="sidebarIcon" />
+              Таблица 
+            </li>
+            </Link>
+            <Link to="services" className="link">
+            <li className="sidebarListItem">
+              <Analytics className="sidebarIcon" />
+              Services
+            </li>
+            </Link>
+            <Link to="region" className="link">
+            <li className="sidebarListItem">
+              <Analytics className="sidebarIcon" />
+              Region
+            </li>
+            </Link>
+            <Link to="Kalkulyator" className="link">
+            <li className="sidebarListItem">
+              <Analytics className="sidebarIcon" />
+              Kalkulyator
+            </li>
+            </Link>
+            <Link to="Vaprosi" className="link">
+            <li className="sidebarListItem">
+              <Analytics className="sidebarIcon" />
+             Вопросы
+            </li>
+            </Link>
+            <Link to="Portfoli" className="link">
+            <li className="sidebarListItem">
+              <Analytics className="sidebarIcon" />
+              Портфолио
+            </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">

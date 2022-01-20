@@ -1,3 +1,6 @@
+*{
+    border: px solid red;
+}
 .container {
     display: flex;
 }

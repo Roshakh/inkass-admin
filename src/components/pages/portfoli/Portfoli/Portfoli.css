@@ -1,0 +1,13 @@
+.Portfoli {
+    flex: 4;
+}
+
+.PortfoliBox {
+    width: 95%;
+    margin: 0 auto;    
+    margin-top: 20px;
+}
+
+.PortfoliTitle {
+    margin: 20px 0px;
+}

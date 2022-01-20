@@ -1,59 +1,191 @@
+*{
+  border: px solid red;
+}
+
+.ReviewBox {
+  display: flex;
+  width: 95%;
+  height: 40vh;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.Review {
+   display: flex;
+   width: 50%;
+   height: 80%;
+   flex-direction: column;
+}
+
+.TextReviewInput {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.ReviewBoxRight {
+  display: flex;
+  width: 95%;
+  height: 40vh;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ReviewRight {
+   display: flex;
+   width: 50%;
+   height: 80%;
+   flex-direction: column;
+}
+
+.TextReviewInputRight {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.ReviewTime {
+  display: flex;
+  width: 95%;
+  height: 15vh;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.ReviewTimeInput {
+  display: flex;
+  width: 15%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.ReviewTimeInput>input {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
 .newReview {
+  display: flex;
+  width: 100%;
+  height: 100%;
   flex: 4;
   padding: 20px;
-}
-
-.newReviewForm {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.newReviewItem {
-  width: 400px;
-  display: flex;
+  justify-content: center;
   flex-direction: column;
-  margin-top: 10px;
-  margin-right: 20px;
 }
 
-.newReviewItemImg {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    cursor: pointer;
-    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);  
-    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
-}
-
-.newReviewItem > label {
-  margin-bottom: 10px;
-  font-size: 14px;
-  font-weight: 1000;
-  color: black;
-}
-
-.newReviewItem > input {
-  height: 20px;
-  padding: 10px;
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-
-.newReviewSelect {
-  height: 40px;
-  border-radius: 5px;
-}
-
-.newReviewButton {
-  width: 200px;
-  border: none;
-  background-color: darkblue;
-  color: white;
-  padding: 7px 10px;
-  font-weight: 600;
-  border-radius: 10px;
+.newReviewBox {
+  display: flex;
+  width: 100%;
+  height: 40vh;
   margin-top: 30px;
+  justify-content: space-between;
+}
+
+.newReviewOne {
+  display: flex;
+  width: 31%;
+  height: 100%;
+  border: 1px solid grey;
+  border-radius: 20px;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.newReviewContent{
+  display: flex;
+  align-items: center;
+}
+
+.newReviewImageUplod {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.ReviewUpdateIcon {
   cursor: pointer;
+}
+
+.clientUpdateIcon {
+  cursor: pointer;
+}
+
+.newReviewName {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.newReviewName>input {
+  display: flex;
+  padding: 2px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+.newReviewInputBox {
+  display: flex;
+  width: 90%;
+  height: 75%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.newReviewInput1 {
+  display: flex;
+  width: 95%;
+  height: 20%;
+  margin: 0 auto;
+  padding: 4px;
+  border-radius: 15px;
+  border: 1px solid grey;
+}
+
+.newReviewInput {
+  display: flex;
+  width: 90%;
+  height: 50%;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto; 
+  border: 1px solid grey;
+  border-radius: 15px;
+  resize: none;
+  margin-top: 3%;
+}
+
+.newReviewImage {
+  display: flex;
+  width: 100%;
+  height: 22%;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.newReviewTitle {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
 }

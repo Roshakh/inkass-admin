@@ -1,21 +1,31 @@
-.management {
+.Table {
     flex: 4;
-    padding: 20px;
   }
   
-  .managementTitleContanier {
+  .tableTitleContanier {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
   
-  .managementContainer {
+  .tableAddBotton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-align:center;
+    font-size: 16px;
+  }
+  
+  .tableContainer {
     display: flex;
     margin-top: 20px;
   }
   
-  .managementShow {
+  .tableShow {
     flex: 1;
     padding: 20px;
     border-radius: 10px;
@@ -23,7 +33,7 @@
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
   }
   
-  .managementUpdate {
+  .tableUpdate {
     flex: 2;
     padding: 20px;
     border-radius: 10px;
@@ -32,98 +42,98 @@
     margin-left: 20px;
   }
   
-  .managementShowTop {
+  .tableShowTop {
     display: flex;
     align-items: center;
   }
   
-  .showmanagementImg {
+  .showtableImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
   }
   
-  .managementShowTopTittle {
+  .tableShowTopTittle {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
   }
   
-  .managementShowUserName {
+  .tableShowUserName {
     font-weight: 600;
   }
   
-  .managementShowUserTitle {
+  .tableShowUserTitle {
     font-weight: 300;
   }
   
-  .managementShowBottom {
+  .tableShowBottom {
     margin-top: 20px;
   }
   
-  .managementShowTitle {
+  .tableShowTitle {
     font-size: 16px;
     font-weight: 600;
     color: rgb(175, 170, 170);
   }
   
-  .managementShowInfo {
+  .tableShowInfo {
     display: flex;
     align-items: center;
     margin: 20px 0px;
     color: #444;
   }
   
-  .managementShowIcon {
+  .tableShowIcon {
     font-size: 16px !important;
   }
   
-  .managementShowInfoTitle {
+  .tableShowInfoTitle {
     margin-left: 10px;
   }
   
-  .managementUpdateTitle {
+  .tableUpdateTitle {
     font-size: 24px;
     font-weight: 600;
   }
   
-  .managementUpdateForm {
+  .tableUpdateForm {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
   }
   
-  .managementUpdateItem {
+  .tableUpdateItem {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
   }
   
-  .managementUpdateItem > label {
+  .tableUpdateItem > label {
     margin-bottom: 5px;
     font-size: 14px;
   }
   
-  .managementUpdateInput {
+  .tableUpdateInput {
     border: none;
     width: 250px;
     height: 30px;
     border-bottom: 1px solid gray;
   }
   
-  .managementUpdateRight {
+  .tableUpdateRight {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   
-  .managementUpdateUpload{
+  .tableUpdateUpload{
       display: flex;
       align-items: center;
   }
   
-  .managementUpdateImg {
+  .tableUpdateImg {
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -131,17 +141,16 @@
     margin-right: 20px;
   }
   
-  .managementUpdateIcon {
+  .tableUpdateIcon {
       cursor: pointer;
   }
   
-  .managementUpdateButton {
+  .tableUpdateButton {
       border-radius: 5px;
       border: none;
       padding: 5px;
       cursor: pointer;
-      background-color: #169C9D;
-      ;
+      background-color: darkblue;
       color: white;
       font-weight: 600;
   }

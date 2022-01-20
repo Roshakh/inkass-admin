@@ -1,0 +1,21 @@
+.region {
+    flex: 4;   
+   
+}
+
+.regionBox {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.accordion {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    /* border: 1px solid grey; */
+    border-radius: 4px;
+}
+

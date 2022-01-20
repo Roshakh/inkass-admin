@@ -1,0 +1,129 @@
+.newVakansi {
+    flex: 4;
+}
+
+.newVakansiBox {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.newVakansiForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newVakansiTitle {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.newVakansiItem {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.newVakansiItemRow {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.newVakansiItem1 {
+    display: flex;
+    width: 30%;
+}
+
+.newVakansiInput {
+    display: flex;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.newVakansiInput1 {
+    display: flex;
+    width: 85%;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.newVakansiSelect {
+    display: flex;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.vakansiPlus {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.vakansiPlusButton {
+    display: flex;
+    width: 30px;
+    height: 20px;
+    padding: 15px;
+    font-size: 35px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.newVakansiImage {
+    display: flex;
+    padding: 5px;
+}
+
+.newVakansiItem>label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.newVakansiItem>input {
+   height: 20px;
+   padding: 10px;
+   border: 1px solid grey;
+   border-radius:5px
+}
+
+.newVakansiButton {
+    width: 200px;
+    border: none;
+    background-color: #169C9D ;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}

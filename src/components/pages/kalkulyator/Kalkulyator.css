@@ -1,0 +1,153 @@
+.kalkulyator {
+  flex: 4;
+}
+
+.kalkulatorBox {
+    display: flex;
+    width: 95%;
+    height: 8vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kalkulatorContent {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    height: 25vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.kalkulatorContent>label {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    margin: 8px auto;
+}
+
+.kalkulatorContent>input {
+    display: flex;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.kalkulatorContent>button {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    background: #009899;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.kalkulatorBannerBox {
+    display: flex;
+    width: 95%;
+    height: 70vh;
+    flex-direction: row;
+    margin: 50px 2.5% 50px 2.5%;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.kalkulatorBanner {
+    display: flex;
+    width: 40%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kalkulatorOne {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.kalkulatorLabel {
+    margin-top: 20px;
+}
+
+.kalkulatorOne>input {
+    display: flex;
+    margin: 7px 0;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+.kalkulatorOne>label {
+    display: flex;
+    margin: 4px 0;
+    padding: 5px;
+}
+
+.kalkulatorOne>Button {
+    display: flex;
+    width: 35%;
+    padding: 8px;
+    justify-content: center;
+    float: right;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.kalkulatorTwo>Button {
+    display: flex;
+    width: 35%;
+    padding: 8px;
+    justify-content: center;
+    float: right;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.kalkulatorTwo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.kalkulatorTwo>input {
+    display: flex;
+    margin: 7px 0;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+.kalkulatorTwo>label {
+    display: flex;
+    margin: 4px 0;
+    padding: 5px;
+}
+
+.kalkulatorButtonBox {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
